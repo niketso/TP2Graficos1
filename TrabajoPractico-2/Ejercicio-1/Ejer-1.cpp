@@ -1,3 +1,6 @@
+#ifdef _DEBUG
+#include "vld.h"
+#endif
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
 #include<iostream>
